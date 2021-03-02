@@ -225,6 +225,7 @@ export default {
     zIndex: "1",
   },
   boxShadowStyle: {
+    borderRadius: "5px",
     padding: "20px",
     boxShadow:
       "6px 6px 19px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)",
