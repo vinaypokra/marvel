@@ -6,6 +6,7 @@ const ColorButton = withStyles((theme) => ({
   root: {
     color: theme.palette.getContrastText(colors.primary),
     backgroundColor: colors.primary,
+    padding: "0 20px",
     border: `1px solid ${colors.primary}`,
     "&:hover": {
       backgroundColor: colors.transparent,
