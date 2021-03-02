@@ -32,7 +32,7 @@ const LoveUs = () => {
               spacing={8}
             >
               <Grid item xs={5} style={Styles.boxZindex}>
-                <Styles.MakePaper>
+                <Styles.MakePaper style={{ ...Styles.cardStyle }}>
                   <Typography variant="h6" style={{ ...Styles.colorPrimary }}>
                     {customTxt.loveUsPage.subheading[0]}
                   </Typography>
@@ -45,7 +45,7 @@ const LoveUs = () => {
                 </Styles.MakePaper>
               </Grid>
               <Grid item xs={5} style={Styles.boxZindex}>
-                <Styles.MakePaper>
+                <Styles.MakePaper style={{ ...Styles.cardStyle }}>
                   <Typography variant="h6" style={{ ...Styles.colorPrimary }}>
                     {customTxt.loveUsPage.subheading[2]}
                   </Typography>
@@ -69,7 +69,7 @@ const LoveUs = () => {
             >
               <Grid item xs={2}></Grid>
               <Grid item xs={5} style={Styles.boxZindex}>
-                <Styles.MakePaper>
+                <Styles.MakePaper style={{ ...Styles.cardStyle }}>
                   <Typography variant="h6" style={{ ...Styles.colorPrimary }}>
                     {customTxt.loveUsPage.subheading[4]}
                   </Typography>
@@ -82,7 +82,7 @@ const LoveUs = () => {
                 </Styles.MakePaper>
               </Grid>
               <Grid item xs={5} style={Styles.boxZindex}>
-                <Styles.MakePaper>
+                <Styles.MakePaper style={{ ...Styles.cardStyle }}>
                   <Typography variant="h6" style={{ ...Styles.colorPrimary }}>
                     {customTxt.loveUsPage.subheading[6]}
                   </Typography>
