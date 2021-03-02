@@ -71,8 +71,7 @@ const theme = createMuiTheme({
       lineHeight: "2.2rem",
     },
     subtitle2: {
-      fontSize: "1.2rem",
-      lineHeight: "1.8rem",
+      fontSize: "0.9rem",
     },
   },
   MuiButton: {

@@ -1,0 +1,37 @@
+{
+  "loveUsPage": {
+    "mainheading": "Why you will love us?",
+    "subheading": [
+      "Healthier choices, made easy",
+      "Learn to listen to your body, make mindful, easy-to-stick-to health choices and lead a more healthy lifestyle, that’s sustainable in the long term.",
+      "Simple, home-cooked meal plans",
+      "Say goodbye to crash diets, and say hello to balanced meal plans that aren’t drastically different from your current lifestyle.",
+      "Easy-to-follow workouts",
+      "Come, find joy in daily workouts. We teach you the art of being consistent with exercise, instead of chasing lofty goals and unrealistic results.",
+      "The most genuine fitness advice",
+      "Our coaches are trained in Sports Nutrition and use only scientific and evidence-based training techniques and fitness advice."
+    ]
+  },
+  "howItWorksPage": {
+    "mainheading": "How It Works",
+    "subheading": [
+      "Find Your Get Set Go Plan",
+      "Answer simple questions about your lifestyle and health for us to recommend a plan and assign a Fitness Coach best suited for you.",
+      "Enjoy 1-on-1 Coaching",
+      "Your Coach will share a personalised fitness chart, with a calorie-counted home-cooked meal plan & workout regime. Share your progress in weekly progress video calls with your Coach.",
+      "Get Fitter Everyday",
+      "Our goal is to ingrain healthy habits deep into your lifestyle, so you can stay forever fit. Stay on track with your fitness chart to see solid results."
+    ]
+  },
+  "FitnessPlan": {
+    "mainheading": "Choose From Our Range Of Fitness Plans",
+    "subheading": [
+      "Lifestyle",
+      "Our signature lifestyle plans that help you get sustainably fit, i.e fit for life. See more",
+      "Healthcare",
+      "Personalised-with-care plans for patients with lifestyle disorders such as PCOS, thyroid and diabetes. See more",
+      "Performance",
+      "Rigorous nutrition and training plans to help those looking to excel at sporting events. See more"
+    ]
+  }
+}

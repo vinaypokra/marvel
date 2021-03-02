@@ -1,6 +1,7 @@
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import { colors } from "./Util/Services";
+import { Paper } from "@material-ui/core";
 
 const ColorButton = withStyles((theme) => ({
   root: {
@@ -15,6 +16,16 @@ const ColorButton = withStyles((theme) => ({
   },
 }))(Button);
 
+const MakePaper = withStyles((theme) => ({
+  root: {
+    padding: theme.spacing(2),
+    textAlign: "left",
+    color: theme.palette.text.secondary,
+    height: 150,
+    width: 225,
+  },
+}))(Paper);
+
 const handleScroll = () => {
   window.scroll({
     top: 350,
@@ -25,6 +36,7 @@ const handleScroll = () => {
 export default {
   handleScroll,
   ColorButton,
+  MakePaper,
   cardRadius: {
     borderRadius: "5px",
   },
@@ -74,6 +86,7 @@ export default {
   paddingRight5: {
     paddingRight: "5px",
   },
+
   spacingVertical: {
     padding: "100px 0",
   },
