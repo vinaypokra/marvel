@@ -16,7 +16,7 @@ const Banner = () => {
         <Grid
           item
           container
-          xs={9}
+          xs={8}
           direction="row"
           justify="center"
           alignItems="center"
@@ -40,7 +40,7 @@ const Banner = () => {
         <Grid
           container
           item
-          xs={8}
+          xs={7}
           direction="row"
           justify="center"
           alignItems="center"
