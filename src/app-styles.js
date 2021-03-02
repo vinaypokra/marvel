@@ -48,6 +48,9 @@ export default {
   greyBG: {
     background: "#111",
   },
+  headerStyle: {
+    justifyContent: "space-evenly",
+  },
   italicTxt: {
     fontStyle: "italic",
   },

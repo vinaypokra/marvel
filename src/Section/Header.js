@@ -11,13 +11,17 @@ class Header extends Component {
         <Grid item>
           <Typography variant="subtitle1">Image</Typography>
         </Grid>
-        <Grid item container xs={5} justify="flex-end space-between">
+        <Grid
+          item
+          xs={5}
+          container
+          direction="row"
+          justify="space-evenly"
+          alignItems="center"
+        >
           {Links.navLinks.map((val) => {
             return (
-              <Link
-                to={val[0]}
-                style={{ ...Styles.headerLink, ...Styles.justify }}
-              >
+              <Link to={val[0]} style={{ ...Styles.headerLink }}>
                 {val[1]}
               </Link>
             );
