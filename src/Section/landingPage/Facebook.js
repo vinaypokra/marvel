@@ -7,7 +7,11 @@ import customTxt from "../customTxt.json";
 const Facebook = () => {
   return (
     <>
-      <Grid container justify="center">
+      <Grid
+        container
+        justify="center"
+        style={{ ...Styles.backgroundColorFaceBook, ...Styles.padding5 }}
+      >
         <Grid
           item
           container
@@ -18,12 +22,19 @@ const Facebook = () => {
           spacing={2}
         >
           <Grid item xs={8}>
-            <Typography variant="h2">
+            <Typography variant="h2" style={{ ...Styles.colorWhite }}>
               {customTxt.Facebook.mainheading}
             </Typography>
           </Grid>
-          <Grid item xs={4}>
-            <Typography variant="subtitle2">
+          <Grid
+            item
+            container
+            xs={4}
+            direction="column"
+            justify="center"
+            alignItems="center"
+          >
+            <Typography variant="subtitle2" style={{ ...Styles.colorWhite }}>
               <ul>
                 {customTxt.Facebook.subheading.map((val) => {
                   return (
@@ -34,6 +45,17 @@ const Facebook = () => {
                 })}
               </ul>
             </Typography>
+            <Button
+              variant="outlined"
+              color="primary"
+              style={{
+                ...Styles.centerTxt,
+                ...Styles.colorWhite,
+                border: "1px solid white",
+              }}
+            >
+              Follow us on Facebook
+            </Button>
           </Grid>
         </Grid>
       </Grid>

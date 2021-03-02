@@ -45,6 +45,9 @@ export default {
   backgroundImageStyle: {
     backgroundSize: "cover",
   },
+  backgroundColorFaceBook: {
+    backgroundColor: "#3e436d",
+  },
   overlapArea: {
     position: "relative",
     bottom: "120px",
