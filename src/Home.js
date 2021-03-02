@@ -6,10 +6,10 @@ import Banner from "./Section/landingPage/Banner";
 const Home = () => {
   return (
     <>
+      <Banner />
       <LoveUs />
       <HowItWorks />
       <FitnessPlan />
-      <Banner />
     </>
   );
 };
