@@ -133,8 +133,12 @@ export default {
     top: 0,
     left: 0,
     padding: "15px",
-    background: "rgba(0,0,0,.5)",
+    background: "white",
     zIndex: 20000,
+  },
+  headerLink: {
+    color: "black",
+    textDecoration: "none",
   },
   popup: {
     position: "fixed",
