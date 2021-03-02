@@ -26,6 +26,9 @@ class Header extends Component {
               </Link>
             );
           })}
+          <Link to="/signin" style={{ ...Styles.headerLink }}>
+            <Styles.ColorButton>SIGN IN</Styles.ColorButton>
+          </Link>
         </Grid>
       </Grid>
     );

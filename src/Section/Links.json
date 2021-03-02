@@ -3,7 +3,6 @@
     ["/", "Home"],
     ["/plans", "Plans"],
     ["/coaches", "Coaches"],
-    ["/successstories", "Success Stories"],
-    ["/signin", "SIGN IN"]
+    ["/successstories", "Success Stories"]
   ]
 }
