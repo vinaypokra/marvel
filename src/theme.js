@@ -1,5 +1,5 @@
 import { createMuiTheme } from "@material-ui/core/styles";
-import { colors } from "./Services";
+import { colors } from "./Util/Services";
 import Poppins from "./Fonts/poppins-v15-latin-regular.woff";
 
 const poppins = {
