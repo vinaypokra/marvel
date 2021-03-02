@@ -7,14 +7,14 @@ import customTxt from "../customTxt.json";
 const FitnessPlan = () => {
   return (
     <>
-      <Grid container justify="center" style={{ marginTop: "200px" }}>
+      <Grid container justify="center">
         <Grid
           item
           container
           direction="row"
           justify="center"
           alignItems="center"
-          xs={12}
+          xs={8}
         >
           <Grid item xs={4}></Grid>
           <Grid item xs={8}>

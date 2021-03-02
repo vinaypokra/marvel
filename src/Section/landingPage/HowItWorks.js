@@ -7,7 +7,7 @@ import customTxt from "../customTxt.json";
 const HowItWorks = () => {
   return (
     <>
-      <Grid container justify="center" style={{ marginTop: "200px" }}>
+      <Grid container justify="center">
         <Typography variant="h2" style={{ ...Styles.colorPrimary }}>
           {customTxt.howItWorksPage.mainheading}
         </Typography>
@@ -17,7 +17,7 @@ const HowItWorks = () => {
           direction="row"
           justify="center"
           alignItems="flex-start"
-          xs={12}
+          xs={11}
           spacing={5}
         >
           <Grid item xs={3}>
