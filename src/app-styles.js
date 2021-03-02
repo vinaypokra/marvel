@@ -146,6 +146,7 @@ export default {
   headerLink: {
     color: "black",
     textDecoration: "none",
+    fontSize: "16px",
   },
   popup: {
     position: "fixed",

@@ -1,16 +1,16 @@
 import "./App.css";
 import Header from "./Section/Header";
-import theme from "./theme";
-import { ThemeProvider, Typography } from "@material-ui/core";
+import { ThemeProvider } from "@material-ui/styles";
 import Home from "./Home";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import theme from "./theme";
 
 function App() {
   return (
     <>
       <Router>
-        <Header />
         <ThemeProvider theme={theme}>
+          <Header />
           <Switch>
             <Route path="/">
               <Home />
