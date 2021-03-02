@@ -25,12 +25,13 @@ const FitnessPlan = () => {
               alignItems="center"
               item
               xs={12}
+              style={Styles.boxShadowStyle}
             >
               <Grid item>
-                <img src={FitnessPlanImage} width="90%" height="80%"></img>
+                <img src={FitnessPlanImage} width="100%" height="80%"></img>
               </Grid>
               <Grid item>
-                <Typography variant="h4">
+                <Typography variant="h3">
                   {customTxt.FitnessPlan.mainheading}
                 </Typography>
               </Grid>
