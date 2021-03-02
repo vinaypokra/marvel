@@ -3,7 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import Styles from "../../app-styles";
 import { Typography, Button } from "@material-ui/core";
 import customTxt from "../customTxt.json";
-
+import FitnessPlanImage from "../../Img/fitnessPlanImg.jpg";
 const FitnessPlan = () => {
   return (
     <>
@@ -16,7 +16,25 @@ const FitnessPlan = () => {
           alignItems="center"
           xs={8}
         >
-          <Grid item xs={4}></Grid>
+          <Grid container item xs={4}>
+            <Grid
+              container
+              direction="column"
+              justify="space-between"
+              alignItems="center"
+              item
+              xs={12}
+            >
+              <Grid container item xs={12}>
+                <img src={FitnessPlanImage} width="100%" height="80%"></img>
+              </Grid>
+              <Grid container item xs={12}>
+                <Typography variant="h3">
+                  {customTxt.FitnessPlan.mainheading}
+                </Typography>
+              </Grid>
+            </Grid>
+          </Grid>
           <Grid item xs={8}>
             <Grid
               container
