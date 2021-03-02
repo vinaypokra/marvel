@@ -7,8 +7,14 @@ import Links from "./Links.json";
 class Header extends Component {
   render() {
     return (
-      <Grid item container style={{ ...Styles.header }} justify="space-between">
-        <Grid item>
+      <Grid
+        container
+        direction="row"
+        justify="space-evenly"
+        alignItems="center"
+        style={{ ...Styles.header }}
+      >
+        <Grid item xs={5}>
           <Typography variant="subtitle1">Image</Typography>
         </Grid>
         <Grid
