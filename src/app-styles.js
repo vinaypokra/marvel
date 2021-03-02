@@ -18,11 +18,10 @@ const ColorButton = withStyles((theme) => ({
 
 const MakePaper = withStyles((theme) => ({
   root: {
+    boxShadow:
+      "6px 6px 19px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)",
     padding: theme.spacing(2),
-    textAlign: "left",
     color: theme.palette.text.secondary,
-    height: 150,
-    width: 225,
   },
 }))(Paper);
 
@@ -37,6 +36,11 @@ export default {
   handleScroll,
   ColorButton,
   MakePaper,
+  cardStyle: {
+    textAlign: "left",
+    height: 150,
+    width: 225,
+  },
   backgroundImageStyle: {
     backgroundSize: "cover",
   },
