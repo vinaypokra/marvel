@@ -164,6 +164,7 @@ export default {
     background: "#111",
   },
   fullHtNoBG: { height: "100vh" },
+  fullHtNoBG1: { height: "70vh" },
   highZ: {
     zIndex: 10000,
   },
