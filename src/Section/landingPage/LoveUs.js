@@ -1,5 +1,6 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
+import HowItWorks from "./HowItWorks";
 import Styles from "../../app-styles";
 import { Typography, Button } from "@material-ui/core";
 import customTxt from "../customTxt.json";
@@ -30,7 +31,7 @@ const LoveUs = () => {
               alignItems="center"
               spacing={8}
             >
-              <Grid item xs={5}>
+              <Grid item xs={5} style={Styles.boxZindex}>
                 <Styles.MakePaper>
                   <Typography variant="h6" style={{ ...Styles.colorPrimary }}>
                     {customTxt.loveUsPage.subheading[0]}
@@ -43,7 +44,7 @@ const LoveUs = () => {
                   </Typography>
                 </Styles.MakePaper>
               </Grid>
-              <Grid item xs={5}>
+              <Grid item xs={5} style={Styles.boxZindex}>
                 <Styles.MakePaper>
                   <Typography variant="h6" style={{ ...Styles.colorPrimary }}>
                     {customTxt.loveUsPage.subheading[2]}
@@ -67,7 +68,7 @@ const LoveUs = () => {
               spacing={8}
             >
               <Grid item xs={2}></Grid>
-              <Grid item xs={5}>
+              <Grid item xs={5} style={Styles.boxZindex}>
                 <Styles.MakePaper>
                   <Typography variant="h6" style={{ ...Styles.colorPrimary }}>
                     {customTxt.loveUsPage.subheading[4]}
@@ -80,7 +81,7 @@ const LoveUs = () => {
                   </Typography>
                 </Styles.MakePaper>
               </Grid>
-              <Grid item xs={5}>
+              <Grid item xs={5} style={Styles.boxZindex}>
                 <Styles.MakePaper>
                   <Typography variant="h6" style={{ ...Styles.colorPrimary }}>
                     {customTxt.loveUsPage.subheading[6]}
@@ -97,6 +98,7 @@ const LoveUs = () => {
           </Grid>
         </Grid>
       </Grid>
+      <HowItWorks />
     </>
   );
 };

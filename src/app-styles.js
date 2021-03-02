@@ -70,7 +70,9 @@ export default {
   blackBG: {
     background: "#000",
   },
-
+  sectionBG: {
+    backgroundColor: "#f5f9fa",
+  },
   whitekBG: {
     background: "white",
   },
@@ -97,6 +99,9 @@ export default {
   },
   padding5: {
     padding: "5% 0",
+  },
+  padding8: {
+    padding: "8% 0",
   },
   padding1: {
     padding: "1%",
@@ -209,6 +214,9 @@ export default {
     overflowY: "auto",
     overflowX: "hidden",
     maxHeight: "280px",
+  },
+  boxZindex: {
+    zIndex: "1",
   },
   whiteColor: { color: colors.secondary },
   err: { color: colors.err },

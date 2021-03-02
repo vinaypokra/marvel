@@ -13,7 +13,11 @@ const HowItWorks = () => {
         justify="center"
         justify="center"
         alignItems="center"
-        style={Styles.fullHtNoBG1}
+        style={{
+          ...Styles.sectionBG,
+          ...Styles.padding8,
+          ...Styles.overlapArea,
+        }}
       >
         <Grid item xs={12}>
           <Typography
@@ -28,11 +32,11 @@ const HowItWorks = () => {
           item
           direction="row"
           justify="center"
-          alignItems="flex-start"
+          alignItems="center"
           xs={11}
-          spacing={5}
+          spacing={1}
         >
-          <Grid item xs={3}>
+          <Grid container item xs={4}>
             <Typography variant="h6" style={{ ...Styles.colorPrimary }}>
               {customTxt.howItWorksPage.subheading[0]}
             </Typography>
@@ -40,7 +44,7 @@ const HowItWorks = () => {
               {customTxt.howItWorksPage.subheading[1]}
             </Typography>
           </Grid>
-          <Grid item xs={3}>
+          <Grid container item xs={4}>
             <Typography variant="h6" style={{ ...Styles.colorPrimary }}>
               {customTxt.howItWorksPage.subheading[2]}
             </Typography>
@@ -48,7 +52,7 @@ const HowItWorks = () => {
               {customTxt.howItWorksPage.subheading[3]}
             </Typography>
           </Grid>
-          <Grid item xs={3}>
+          <Grid container item xs={4}>
             <Typography variant="h6" style={{ ...Styles.colorPrimary }}>
               {customTxt.howItWorksPage.subheading[4]}
             </Typography>
