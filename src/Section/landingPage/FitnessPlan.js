@@ -26,6 +26,7 @@ const FitnessPlan = () => {
               item
               xs={12}
               style={Styles.boxShadowStyle}
+              spacing={6}
             >
               <Grid item>
                 <img src={FitnessPlanImage} width="100%" height="80%"></img>
@@ -34,6 +35,19 @@ const FitnessPlan = () => {
                 <Typography variant="h3">
                   {customTxt.FitnessPlan.mainheading}
                 </Typography>
+              </Grid>
+              <Grid item>
+                <Button
+                  variant="contained"
+                  color="primary"
+                  style={{ marginRight: "8px" }}
+                >
+                  Custom Plan
+                </Button>
+
+                <Button variant="outlined" color="primary">
+                  Know More
+                </Button>
               </Grid>
             </Grid>
           </Grid>
