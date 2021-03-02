@@ -17,7 +17,7 @@ const FitnessPlan = () => {
           xs={8}
           spacing={2}
         >
-          <Grid container item xs={4}>
+          <Grid container item xs={6}>
             <Grid
               container
               direction="column"
@@ -27,7 +27,7 @@ const FitnessPlan = () => {
               xs={12}
             >
               <Grid item>
-                <img src={FitnessPlanImage} width="100%" height="80%"></img>
+                <img src={FitnessPlanImage} width="90%" height="80%"></img>
               </Grid>
               <Grid item>
                 <Typography variant="h4">
@@ -36,7 +36,7 @@ const FitnessPlan = () => {
               </Grid>
             </Grid>
           </Grid>
-          <Grid item xs={8}>
+          <Grid item xs={6}>
             <Grid
               container
               direction="column"
