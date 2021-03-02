@@ -30,7 +30,7 @@ class Header extends Component {
           {Links.navLinks.map((val) => {
             return (
               <Link to={val[0]} style={{ ...Styles.headerLink }}>
-                <Typography variant="h7">{val[1]}</Typography>
+                {val[1]}
               </Link>
             );
           })}
