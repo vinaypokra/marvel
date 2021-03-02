@@ -10,8 +10,9 @@ const ColorButton = withStyles((theme) => ({
 
     border: `1px solid ${colors.primary}`,
     "&:hover": {
-      backgroundColor: colors.transparent,
-      border: `1px solid white`,
+      backgroundColor: colors.secondary,
+      color: colors.primary,
+      border: `1px solid ${colors.primary}`,
     },
   },
 }))(Button);

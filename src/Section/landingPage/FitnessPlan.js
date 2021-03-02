@@ -7,7 +7,7 @@ import FitnessPlanImage from "../../Img/fitnessPlanImg.jpg";
 const FitnessPlan = () => {
   return (
     <>
-      <Grid container justify="center">
+      <Grid container justify="center" style={{ ...Styles.overlapArea }}>
         <Grid
           item
           container
@@ -25,8 +25,13 @@ const FitnessPlan = () => {
               alignItems="center"
               item
               xs={12}
-              style={Styles.boxShadowStyle}
-              spacing={5}
+              style={{
+                ...Styles.boxShadowStyle,
+                ...Styles.overlapArea,
+                ...Styles.boxZindex,
+                ...Styles.whitekBG,
+              }}
+              spacing={7}
             >
               <Grid item>
                 <img src={FitnessPlanImage} width="100%" height="80%"></img>
@@ -53,9 +58,9 @@ const FitnessPlan = () => {
             <Grid
               container
               direction="column"
-              justify="center"
-              alignItems="center"
-              spacing={8}
+              justify="flex-start"
+              alignItems="flex-start"
+              spacing={4}
             >
               <Grid item>
                 <Typography variant="h6">
