@@ -15,6 +15,7 @@ const FitnessPlan = () => {
           justify="center"
           alignItems="center"
           xs={8}
+          spacing={2}
         >
           <Grid container item xs={4}>
             <Grid
@@ -25,11 +26,11 @@ const FitnessPlan = () => {
               item
               xs={12}
             >
-              <Grid container item xs={12}>
+              <Grid item>
                 <img src={FitnessPlanImage} width="100%" height="80%"></img>
               </Grid>
-              <Grid container item xs={12}>
-                <Typography variant="h3">
+              <Grid item>
+                <Typography variant="h4">
                   {customTxt.FitnessPlan.mainheading}
                 </Typography>
               </Grid>
