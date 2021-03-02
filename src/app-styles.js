@@ -37,6 +37,24 @@ export default {
   handleScroll,
   ColorButton,
   MakePaper,
+  backgroundImageStyle: {
+    backgroundSize: "cover",
+  },
+  overlapArea: {
+    position: "relative",
+    bottom: "120px",
+  },
+  blueBackground: {
+    backgroundColor: colors.primary,
+    maxHeight: "85vh",
+  },
+  blueBackground2: {
+    background:
+      "linear-gradient(90deg, rgba(55,110,129,1) 50%, rgba(255,255,255,1) 50%)",
+  },
+  smallFont: {
+    fontSize: ".6rem",
+  },
   cardRadius: {
     borderRadius: "5px",
   },
@@ -51,6 +69,10 @@ export default {
   },
   blackBG: {
     background: "#000",
+  },
+
+  whitekBG: {
+    background: "white",
   },
   boldTxt: {
     fontStyle: "bold",
@@ -74,7 +96,7 @@ export default {
     marginTop: "10px",
   },
   padding5: {
-    padding: "5%",
+    padding: "5% 0",
   },
   padding1: {
     padding: "1%",
