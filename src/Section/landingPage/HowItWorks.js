@@ -7,10 +7,22 @@ import customTxt from "../customTxt.json";
 const HowItWorks = () => {
   return (
     <>
-      <Grid container justify="center">
-        <Typography variant="h2" style={{ ...Styles.colorPrimary }}>
-          {customTxt.howItWorksPage.mainheading}
-        </Typography>
+      <Grid
+        xs={12}
+        container
+        justify="center"
+        justify="center"
+        alignItems="center"
+        style={Styles.fullHtNoBG1}
+      >
+        <Grid item xs={12}>
+          <Typography
+            variant="h2"
+            style={{ ...Styles.colorPrimary, ...Styles.centerTxt }}
+          >
+            {customTxt.howItWorksPage.mainheading}
+          </Typography>
+        </Grid>
         <Grid
           container
           item
