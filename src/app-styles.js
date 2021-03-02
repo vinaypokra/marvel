@@ -51,6 +51,8 @@ export default {
   blueBackground2: {
     background:
       "linear-gradient(90deg, rgba(55,110,129,1) 50%, rgba(255,255,255,1) 50%)",
+    boxShadow:
+      "6px 6px 19px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)",
   },
   smallFont: {
     fontSize: ".6rem",
