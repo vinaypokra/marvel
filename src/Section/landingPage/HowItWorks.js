@@ -15,7 +15,7 @@ const HowItWorks = () => {
         alignItems="center"
         style={{
           ...Styles.sectionBG,
-          ...Styles.padding8,
+          ...Styles.padding15,
           ...Styles.overlapArea,
         }}
       >

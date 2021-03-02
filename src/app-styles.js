@@ -100,8 +100,8 @@ export default {
   padding5: {
     padding: "5% 0",
   },
-  padding8: {
-    padding: "8% 0",
+  padding15: {
+    padding: "15% 0",
   },
   padding1: {
     padding: "1%",
