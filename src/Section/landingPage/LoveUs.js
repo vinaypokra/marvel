@@ -6,7 +6,7 @@ import customTxt from "../customTxt.json";
 const LoveUs = () => {
   return (
     <>
-      <Grid container justify="center" style={{ marginTop: "200px" }}>
+      <Grid container justify="center">
         <Grid
           container
           item
