@@ -17,36 +17,58 @@ const Footer = () => {
           alignItems="center"
           xs={8}
           spacing={2}
+          style={{ ...Styles.padding5 }}
         >
-          <Grid item xs={4}>
-            <Typography variant="h5">
-              {customTxt.Footer.address[0]}
-              <br></br>
-              {customTxt.Footer.address[1]}
-              <br></br>
-              {customTxt.Footer.address[2]}
-            </Typography>
-            <Typography variant="h6" style={{ ...Styles.colorFade }}>
-              <br></br>
-              <br></br>
-              {customTxt.Footer.copyright}
-            </Typography>
+          <Grid item xs={5}>
+            {customTxt.Footer.address.map((val) => {
+              return <Typography variant="h5">{val}</Typography>;
+            })}
           </Grid>
-          <Grid item xs={4}>
-            <ul>
-              {Links.navLinks.map((val) => {
-                return (
-                  <li>
-                    <Link to={val[0]} style={{ ...Styles.headerLink }}>
-                      {val[1]}
-                    </Link>
-                  </li>
-                );
-              })}
-            </ul>
+          <Grid item xs={3}>
+            {Links.footLinks.map((val, key) => {
+              return (
+                <Link to={val[0]} style={{ ...Styles.headerLink }}>
+                  <Typography key={key} variant="subtitle2">
+                    {val[1]}
+                  </Typography>
+                </Link>
+              );
+            })}
           </Grid>
           <Grid item xs={4}>
             <Typography variant="h5">{customTxt.Footer.follow}</Typography>
+          </Grid>
+        </Grid>
+        <Grid
+          item
+          container
+          direction="row"
+          justify="center"
+          alignItems="center"
+          xs={8}
+          spacing={2}
+        >
+          <Grid item xs={5}>
+            <Typography variant="h6" style={{ ...Styles.colorFade }}>
+              {customTxt.Footer.copyright}
+            </Typography>
+          </Grid>
+          <Grid item xs={7}>
+            <Typography variant="subtitle2">
+              {Links.privacy.map((val, key) => {
+                return (
+                  <Link
+                    to={val[0]}
+                    style={{
+                      ...Styles.headerLink,
+                      marginRight: Styles.spacing(3),
+                    }}
+                  >
+                    {val[1]}
+                  </Link>
+                );
+              })}
+            </Typography>
           </Grid>
         </Grid>
       </Grid>
