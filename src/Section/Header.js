@@ -27,9 +27,9 @@ class Header extends Component {
           justify="space-evenly"
           alignItems="center"
         >
-          {Links.navLinks.map((val) => {
+          {Links.navLinks.map((val, key) => {
             return (
-              <Link to={val[0]} style={{ ...Styles.headerLink }}>
+              <Link key={key} to={val[0]} style={{ ...Styles.headerLink }}>
                 {val[1]}
               </Link>
             );

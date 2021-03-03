@@ -35,7 +35,7 @@ const FitnessPlan = () => {
             >
               <Grid item>
                 <img src={FitnessPlanImage} width="100%" height="80%"></img>
-                <Typography variant="h3">
+                <Typography variant="h3" style={Styles.headingColor}>
                   {customTxt.FitnessPlan.mainheading}
                 </Typography>
               </Grid>
@@ -62,30 +62,14 @@ const FitnessPlan = () => {
               alignItems="flex-start"
               spacing={4}
             >
-              <Grid item>
-                <Typography variant="h6">
-                  {customTxt.FitnessPlan.subheading[0]}
-                </Typography>
-                <Typography variant="subtitle2">
-                  {customTxt.FitnessPlan.subheading[1]}
-                </Typography>
-              </Grid>
-              <Grid item>
-                <Typography variant="h6">
-                  {customTxt.FitnessPlan.subheading[2]}
-                </Typography>
-                <Typography variant="subtitle2">
-                  {customTxt.FitnessPlan.subheading[3]}
-                </Typography>
-              </Grid>
-              <Grid item>
-                <Typography variant="h6">
-                  {customTxt.FitnessPlan.subheading[4]}
-                </Typography>
-                <Typography variant="subtitle2">
-                  {customTxt.FitnessPlan.subheading[5]}
-                </Typography>
-              </Grid>
+              {customTxt.FitnessPlan.subheading.map((value, key) => {
+                return (
+                  <Grid key={key} item>
+                    <Typography variant="h6">{value[0]}</Typography>
+                    <Typography variant="subtitle2">{value[1]}</Typography>
+                  </Grid>
+                );
+              })}
             </Grid>
           </Grid>
         </Grid>

@@ -37,6 +37,9 @@ export default {
   handleScroll,
   ColorButton,
   MakePaper,
+  headingColor: {
+    color: colors.primary2,
+  },
   cardStyle: {
     textAlign: "left",
     height: 150,

@@ -22,7 +22,7 @@ const HowItWorks = () => {
         <Grid item xs={12}>
           <Typography
             variant="h2"
-            style={{ ...Styles.colorPrimary, ...Styles.centerTxt }}
+            style={{ ...Styles.headingColor, ...Styles.centerTxt }}
           >
             {customTxt.howItWorksPage.mainheading}
           </Typography>
@@ -36,30 +36,18 @@ const HowItWorks = () => {
           xs={11}
           spacing={1}
         >
-          <Grid container item xs={4}>
-            <Typography variant="h6" style={{ ...Styles.colorPrimary }}>
-              {customTxt.howItWorksPage.subheading[0]}
-            </Typography>
-            <Typography variant="subtitle2" style={{ ...Styles.colorGrey }}>
-              {customTxt.howItWorksPage.subheading[1]}
-            </Typography>
-          </Grid>
-          <Grid container item xs={4}>
-            <Typography variant="h6" style={{ ...Styles.colorPrimary }}>
-              {customTxt.howItWorksPage.subheading[2]}
-            </Typography>
-            <Typography variant="subtitle2" style={{ ...Styles.colorGrey }}>
-              {customTxt.howItWorksPage.subheading[3]}
-            </Typography>
-          </Grid>
-          <Grid container item xs={4}>
-            <Typography variant="h6" style={{ ...Styles.colorPrimary }}>
-              {customTxt.howItWorksPage.subheading[4]}
-            </Typography>
-            <Typography variant="subtitle2" style={{ ...Styles.colorGrey }}>
-              {customTxt.howItWorksPage.subheading[5]}
-            </Typography>
-          </Grid>
+          {customTxt.howItWorksPage.subheading.map((value, key) => {
+            return (
+              <Grid key={key} container item xs={4}>
+                <Typography variant="h6" style={{ ...Styles.colorPrimary }}>
+                  {value[0]}
+                </Typography>
+                <Typography variant="subtitle2" style={{ ...Styles.colorGrey }}>
+                  {value[1]}
+                </Typography>
+              </Grid>
+            );
+          })}
         </Grid>
       </Grid>
     </>

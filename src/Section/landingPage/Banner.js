@@ -2,6 +2,7 @@ import React from "react";
 import Styles from "../../app-styles";
 import { Button, Grid, Typography } from "@material-ui/core";
 import BannerImage from "../../Img/bannerImg.png";
+import customTxt from "./customTxt.json";
 
 const backImage = {
   paperContainer: {
@@ -23,8 +24,8 @@ const Banner = () => {
           style={Styles.blueBackground}
         >
           <Grid item xs={5}>
-            <Typography variant="h1" style={Styles.whiteColor}>
-              Uncomplicating Fitness since 2017
+            <Typography variant="h1" style={Styles.headingColor}>
+              {customTxt.BannerPage.mainheading}
             </Typography>
           </Grid>
           <Grid
@@ -62,26 +63,13 @@ const Banner = () => {
               ...Styles.padding5,
             }}
           >
-            <Grid item xs={5}>
-              <Typography variant="subtitle2">
-                A designated coach a.k.a your fitness buddy
-              </Typography>
-            </Grid>
-            <Grid item xs={5}>
-              <Typography variant="subtitle2">
-                Easy-to-follow meals & exercises
-              </Typography>
-            </Grid>
-            <Grid item xs={5}>
-              <Typography variant="subtitle2">
-                No extreme, harsh diets
-              </Typography>
-            </Grid>
-            <Grid item xs={5}>
-              <Typography variant="subtitle2">
-                Visible results that last long
-              </Typography>
-            </Grid>
+            {customTxt.BannerPage.contentList.map((value, key) => {
+              return (
+                <Grid item xs={5} key={key}>
+                  <Typography variant="subtitle2">{value}</Typography>
+                </Grid>
+              );
+            })}
           </Grid>
           <Grid
             container
@@ -94,7 +82,7 @@ const Banner = () => {
             }}
           >
             <Grid item xs={10} style={{ marginBottom: Styles.spacing(4) }}>
-              <Typography variant="h4">
+              <Typography variant="h4" style={Styles.headingColor}>
                 Try Get Set Go Once.<br></br> Stay Fit Forever.
               </Typography>
             </Grid>

@@ -32,19 +32,20 @@ const Facebook = () => {
             xs={4}
             direction="column"
             justify="center"
-            alignItems="center"
+            alignItems="flex-start"
           >
-            <Typography variant="subtitle2" style={{ ...Styles.colorWhite }}>
-              <ul>
-                {customTxt.Facebook.subheading.map((val) => {
-                  return (
-                    <>
-                      <li>{val}</li>
-                    </>
-                  );
-                })}
-              </ul>
-            </Typography>
+            {customTxt.Facebook.subheading.map((val, key) => {
+              return (
+                <Typography
+                  key={key}
+                  variant="subtitle2"
+                  style={{ ...Styles.colorWhite }}
+                >
+                  {val}
+                </Typography>
+              );
+            })}
+
             <Button
               variant="outlined"
               color="primary"
