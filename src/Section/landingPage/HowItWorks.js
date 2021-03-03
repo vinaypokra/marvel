@@ -2,7 +2,7 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Styles from "../../app-styles";
 import { Typography, Button } from "@material-ui/core";
-import customTxt from "../customTxt.json";
+import customTxt from "./customTxt.json";
 
 const HowItWorks = () => {
   return (

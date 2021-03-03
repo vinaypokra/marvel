@@ -3,7 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import HowItWorks from "./HowItWorks";
 import Styles from "../../app-styles";
 import { Typography, Button } from "@material-ui/core";
-import customTxt from "../customTxt.json";
+import customTxt from "./customTxt.json";
 const LoveUs = () => {
   return (
     <>

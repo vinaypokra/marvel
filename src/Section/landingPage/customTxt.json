@@ -1,4 +1,14 @@
 {
+  "BannerPage": {
+    "mainheading": "  Uncomplicating Fitness since 2017",
+    "contentList": [
+      "A designated coach a.k.a your fitness buddy",
+      "Easy-to-follow meals & exercises",
+      "No extreme, harsh diets",
+      "Visible results that last long"
+    ]
+  },
+
   "loveUsPage": {
     "mainheading": "Why you will love us?",
     "subheading": [
