@@ -77,6 +77,9 @@ export default {
   colorGrey: {
     color: colors.grey,
   },
+  colorFade: {
+    color: "#bababa",
+  },
   blackBG: {
     background: "#000",
   },

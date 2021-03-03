@@ -51,5 +51,14 @@
       "Inspiring Transformations",
       "Exciting giveaways and contests"
     ]
+  },
+  "Footer": {
+    "address": [
+      "#302, Niche Facade,",
+      "Sakore Nagar, Viman Nagar,",
+      "Pune, Maharashtra - 411014"
+    ],
+    "follow": "Follow us at",
+    "copyright": "© 2021 GetSetGo Fitness. All Rights Reserved."
   }
 }
