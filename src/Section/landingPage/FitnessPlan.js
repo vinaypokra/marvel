@@ -35,7 +35,7 @@ const FitnessPlan = () => {
             >
               <Grid item>
                 <img src={FitnessPlanImage} width="100%" height="80%"></img>
-                <Typography variant="h3" style={Styles.headingColor}>
+                <Typography variant="h4" style={Styles.headingColor}>
                   {customTxt.FitnessPlan.mainheading}
                 </Typography>
               </Grid>

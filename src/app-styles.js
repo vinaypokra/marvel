@@ -39,6 +39,7 @@ export default {
   MakePaper,
   headingColor: {
     color: colors.primary2,
+    fontWeight: "900",
   },
   cardStyle: {
     textAlign: "left",
