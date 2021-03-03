@@ -18,7 +18,10 @@ const LoveUs = () => {
           spacing={1}
         >
           <Grid item xs={4}>
-            <Typography variant="h2" style={{ ...Styles.colorPrimary }}>
+            <Typography
+              variant="h2"
+              style={{ ...Styles.colorPrimary, ...Styles.headingColor }}
+            >
               {customTxt.loveUsPage.mainheading}
             </Typography>
           </Grid>
