@@ -5,5 +5,14 @@
     ["/coaches", "Coaches"],
     ["/successstories", "Success Stories"],
     ["/blog", "Blog"]
+  ],
+  "footLinks": [
+    ["/aboutus", "About Us"],
+    ["/plans", "Plans"],
+    ["/blog", "Blog"]
+  ],
+  "privacy": [
+    ["/privacypolicy", "Privacy Policy"],
+    ["/termsofuse", "Terms of Use"]
   ]
 }
